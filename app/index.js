@@ -1,0 +1,14 @@
+import React from 'react';
+import { View } from 'react-native';
+import Home from './screens/Home';
+import EStyleSheet from 'react-native-extended-stylesheet';
+
+EStyleSheet.build({
+  $primaryBlue: '#4F6D7A',
+  $lightGray: '#F0F0F0',
+  $border: '#979797',
+  $inputText: '#797979',
+  $darkText: '#343434',
+
+});
+export default () => <Home />
