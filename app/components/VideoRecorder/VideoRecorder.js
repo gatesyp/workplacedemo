@@ -6,6 +6,7 @@ import {
 } from 'react-native';
 
 import Camera from 'react-native-camera';
+import styles from './styles';
 
 import RecordButton from './RecordButton';
 import FlipCameraButton from './FlipCameraButton';
@@ -110,7 +111,14 @@ export default class VideoRecorder extends Component {
     }
 
     handleStopRecording() {
-        this.camera.stopCapture()
+
+        
+            // this.camera.stopCapture();
+    
+            // this.setState({
+            //     recording: false,
+            // });
+        this.camera.stopCapture()        
             .then(() => {
                 this.setState({
                     recording: false,

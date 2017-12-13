@@ -4,7 +4,7 @@ import { Text, FlatList, View, StatusBar } from 'react-native';
 import { Container } from '../components/Container';
 import questionsList from '../data/questionsList';
 import { VideoRecorder } from '../components/VideoRecorder';
-import {IonIcons} from '@expo/vector-icons';
+// import {IonIcons} from '@expo/vector-icons';
 
 class RecordVideo extends Component {
     
