@@ -1,6 +1,6 @@
 import React from 'react';
 import { View } from 'react-native';
-import Home from './screens/Home';
+import RecordVideo from './screens/RecordVideo';
 import EStyleSheet from 'react-native-extended-stylesheet';
 
 EStyleSheet.build({
@@ -11,4 +11,4 @@ EStyleSheet.build({
   $darkText: '#343434',
 
 });
-export default () => <Home />
+export default () => <RecordVideo />
